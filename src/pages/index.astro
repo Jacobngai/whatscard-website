@@ -1,0 +1,822 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="WhatsCard - Smart Business Card Scanner & Networking App"
+  description="Transform paper business cards into digital contacts instantly with AI-powered scanning. Manage contacts, network on WhatsApp, and never lose a business card again."
+>
+  <main>
+    <!-- Header/Navigation -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <span class="logo-icon">📇</span>
+            <span class="logo-text">WhatsCard</span>
+          </div>
+          <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#download" class="btn-primary">Download Now</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Transform Paper Business Cards Into Digital Contacts <span class="highlight">Instantly</span>
+          </h1>
+          <p class="hero-subtitle">
+            AI-powered business card scanner designed for Malaysian professionals. Scan, organize, and network on WhatsApp—all in one app.
+          </p>
+          <div class="hero-cta">
+            <a href="#download" class="btn-primary btn-large">
+              Download Free
+            </a>
+            <a href="#features" class="btn-secondary btn-large">
+              Learn More
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-number">99%</div>
+              <div class="stat-label">OCR Accuracy</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">&lt;3s</div>
+              <div class="stat-label">Scan Time</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">Offline</div>
+              <div class="stat-label">First Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Powerful Features for Professionals</h2>
+          <p>Everything you need to digitize your networking</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🔍</div>
+            <h3>AI-Powered Scanning</h3>
+            <p>Extract contact details from business cards in seconds with 99% accuracy using Google Gemini AI.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Smart Contact Management</h3>
+            <p>Organize unlimited contacts with search, filters, tags, and custom notes. Export to Excel anytime.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3>WhatsApp Integration</h3>
+            <p>Send WhatsApp messages directly from contact cards. Build professional relationships faster.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure & Private</h3>
+            <p>End-to-end encryption, secure cloud backup, GDPR compliant. Your data is safe with us.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🎤</div>
+            <h3>AI Voice Notes</h3>
+            <p>Record and transcribe voice memos for each contact. Powered by OpenAI Whisper.</p>
+            <span class="badge">Premium</span>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">⏰</div>
+            <h3>Follow-up Reminders</h3>
+            <p>Never forget to follow up with leads. Smart reminders keep you on track.</p>
+            <span class="badge">Premium</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2>How It Works</h2>
+          <p>Start networking smarter in 3 simple steps</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Scan Card</h3>
+            <p>Point your camera at any business card and capture it instantly.</p>
+          </div>
+          <div class="step-arrow">→</div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>AI Extraction</h3>
+            <p>Our AI extracts name, phone, email, company, and address automatically.</p>
+          </div>
+          <div class="step-arrow">→</div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Start Networking</h3>
+            <p>Message on WhatsApp, set reminders, and build relationships.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>Choose Your Plan</h2>
+          <p>Start free, upgrade when you need more</p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Free</h3>
+            <div class="price">
+              <span class="price-amount">RM0</span>
+              <span class="price-period">/forever</span>
+            </div>
+            <ul class="features-list">
+              <li>✓ Unlimited card scanning</li>
+              <li>✓ Basic contact management</li>
+              <li>✓ WhatsApp integration</li>
+              <li>✓ Excel export</li>
+              <li>✓ Offline mode</li>
+            </ul>
+            <a href="#download" class="btn-secondary">Get Started</a>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="popular-badge">Most Popular</div>
+            <h3>Pro</h3>
+            <div class="price">
+              <span class="price-amount">RM199</span>
+              <span class="price-period">/year</span>
+            </div>
+            <ul class="features-list">
+              <li>✓ Everything in Free</li>
+              <li>✓ Smart follow-up reminders</li>
+              <li>✓ AI voice notes & transcription</li>
+              <li>✓ Advanced analytics</li>
+              <li>✓ Priority support</li>
+            </ul>
+            <a href="#download" class="btn-primary">Start Free Trial</a>
+          </div>
+
+          <div class="pricing-card">
+            <h3>Enterprise</h3>
+            <div class="price">
+              <span class="price-amount">RM599</span>
+              <span class="price-period">/year</span>
+            </div>
+            <ul class="features-list">
+              <li>✓ Everything in Pro</li>
+              <li>✓ Team collaboration</li>
+              <li>✓ Centralized contact database</li>
+              <li>✓ Team performance dashboard</li>
+              <li>✓ Dedicated account manager</li>
+            </ul>
+            <a href="#download" class="btn-secondary">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+      <div class="container">
+        <div class="download-content">
+          <h2>Ready to Transform Your Networking?</h2>
+          <p>Download WhatsCard now and never lose a business card again.</p>
+          <div class="download-buttons">
+            <a href="https://play.google.com/store" class="download-btn">
+              <div class="download-icon">📱</div>
+              <div>
+                <div class="download-text">Download on</div>
+                <div class="download-store">Google Play</div>
+              </div>
+            </a>
+            <a href="https://apps.apple.com" class="download-btn">
+              <div class="download-icon">🍎</div>
+              <div>
+                <div class="download-text">Download on</div>
+                <div class="download-store">App Store</div>
+              </div>
+            </a>
+          </div>
+          <p class="download-note">Free to download • No credit card required</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-icon">📇</span>
+              <span class="logo-text">WhatsCard</span>
+            </div>
+            <p>Smart business card scanner for Malaysian professionals</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Product</h4>
+              <a href="#features">Features</a>
+              <a href="#pricing">Pricing</a>
+              <a href="#download">Download</a>
+            </div>
+            <div class="footer-column">
+              <h4>Legal</h4>
+              <a href="/privacy-policy">Privacy Policy</a>
+              <a href="/terms">Terms of Service</a>
+            </div>
+            <div class="footer-column">
+              <h4>Contact</h4>
+              <a href="mailto:info@whatscard.app">info@whatscard.app</a>
+              <p class="footer-address">
+                7-2B, Block D. Jalan PJU 1/3D<br>
+                Sunwaymas Commercial Centre<br>
+                47301 Petaling Jaya, Selangor<br>
+                Malaysia
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 WhatsCard. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <style>
+    /* Variables */
+    :root {
+      --primary: #007AFF;
+      --primary-dark: #0051D5;
+      --secondary: #5856D6;
+      --text: #1a1a1a;
+      --text-light: #666;
+      --bg: #ffffff;
+      --bg-light: #f8f9fa;
+      --border: #e0e0e0;
+      --success: #34C759;
+      --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    .header {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+      padding: 20px 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .logo-icon {
+      font-size: 32px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    /* Buttons */
+    .btn-primary,
+    .btn-secondary {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+    }
+
+    .btn-secondary:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-large {
+      padding: 16px 32px;
+      font-size: 18px;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 100px 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+    }
+
+    .hero-title {
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+
+    .highlight {
+      background: linear-gradient(to right, #FFD700, #FFA500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-subtitle {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      opacity: 0.95;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
+
+    .hero-cta .btn-secondary {
+      border-color: white;
+      color: white;
+    }
+
+    .hero-cta .btn-secondary:hover {
+      background: white;
+      color: var(--primary);
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin-top: 60px;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    /* Section Header */
+    .section-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-header h2 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    .section-header p {
+      font-size: 18px;
+      color: var(--text-light);
+    }
+
+    /* Features Section */
+    .features {
+      padding: 100px 0;
+      background: var(--bg-light);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      transition: transform 0.3s, box-shadow 0.3s;
+      position: relative;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .feature-icon {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .feature-card h3 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .feature-card p {
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    .badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--secondary);
+      color: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    /* How It Works */
+    .how-it-works {
+      padding: 100px 0;
+    }
+
+    .steps {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .step {
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+
+    .step-number {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      font-size: 32px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+
+    .step h3 {
+      font-size: 24px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .step p {
+      color: var(--text-light);
+    }
+
+    .step-arrow {
+      font-size: 36px;
+      color: var(--primary);
+    }
+
+    /* Pricing Section */
+    .pricing {
+      padding: 100px 0;
+      background: var(--bg-light);
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .pricing-card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      text-align: center;
+      position: relative;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .pricing-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .pricing-card.featured {
+      border: 3px solid var(--primary);
+      transform: scale(1.05);
+    }
+
+    .popular-badge {
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary);
+      color: white;
+      padding: 6px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .pricing-card h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+
+    .price {
+      margin-bottom: 30px;
+    }
+
+    .price-amount {
+      font-size: 48px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .price-period {
+      font-size: 16px;
+      color: var(--text-light);
+    }
+
+    .features-list {
+      list-style: none;
+      margin-bottom: 30px;
+      text-align: left;
+    }
+
+    .features-list li {
+      padding: 12px 0;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Download Section */
+    .download {
+      padding: 100px 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+    }
+
+    .download h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .download p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      opacity: 0.95;
+    }
+
+    .download-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .download-btn {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: white;
+      color: var(--text);
+      padding: 15px 30px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .download-btn:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .download-icon {
+      font-size: 36px;
+    }
+
+    .download-text {
+      font-size: 12px;
+      text-align: left;
+    }
+
+    .download-store {
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .download-note {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 60px 0 20px;
+      background: var(--text);
+      color: white;
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 60px;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand p {
+      margin-top: 16px;
+      opacity: 0.8;
+    }
+
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    .footer-column h4 {
+      margin-bottom: 16px;
+      font-size: 16px;
+    }
+
+    .footer-column a {
+      display: block;
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      margin-bottom: 12px;
+      transition: color 0.3s;
+    }
+
+    .footer-column a:hover {
+      color: white;
+    }
+
+    .footer-address {
+      font-size: 14px;
+      line-height: 1.6;
+      opacity: 0.8;
+    }
+
+    .footer-bottom {
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: center;
+      opacity: 0.6;
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hero-title {
+        font-size: 36px;
+      }
+
+      .hero-subtitle {
+        font-size: 16px;
+      }
+
+      .hero-stats {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .section-header h2 {
+        font-size: 32px;
+      }
+
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .steps {
+        flex-direction: column;
+      }
+
+      .step-arrow {
+        transform: rotate(90deg);
+      }
+
+      .pricing-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .pricing-card.featured {
+        transform: scale(1);
+      }
+
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-links {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</BaseLayout>
