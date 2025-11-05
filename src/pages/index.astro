@@ -12,8 +12,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="container">
         <nav class="nav">
           <div class="logo">
-            <span class="logo-icon">📇</span>
-            <span class="logo-text">WhatsCard</span>
+            <img src="/logo-white.png" alt="WhatsCard Logo" class="logo-img" />
           </div>
           <div class="nav-links">
             <a href="#features">Features</a>
@@ -234,8 +233,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="footer-content">
           <div class="footer-brand">
             <div class="logo">
-              <span class="logo-icon">📇</span>
-              <span class="logo-text">WhatsCard</span>
+              <img src="/logo-white.png" alt="WhatsCard Logo" class="logo-img" />
             </div>
             <p>Smart business card scanner for Malaysian professionals</p>
           </div>
@@ -273,15 +271,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <style>
     /* Variables */
     :root {
-      --primary: #007AFF;
-      --primary-dark: #0051D5;
-      --secondary: #5856D6;
+      --primary: #10B981;
+      --primary-dark: #059669;
+      --secondary: #14B8A6;
       --text: #1a1a1a;
       --text-light: #666;
       --bg: #ffffff;
       --bg-light: #f8f9fa;
       --border: #e0e0e0;
-      --success: #34C759;
+      --success: #22C55E;
       --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.15);
     }
@@ -314,13 +312,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       display: flex;
       align-items: center;
       gap: 10px;
-      font-size: 24px;
-      font-weight: 700;
-      color: var(--primary);
     }
 
-    .logo-icon {
-      font-size: 32px;
+    .logo-img {
+      height: 40px;
+      width: auto;
     }
 
     .nav-links {
@@ -381,7 +377,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     /* Hero Section */
     .hero {
       padding: 100px 0;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #10B981 0%, #059669 100%);
       color: white;
       text-align: center;
     }
@@ -650,7 +646,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     /* Download Section */
     .download {
       padding: 100px 0;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #10B981 0%, #059669 100%);
       color: white;
       text-align: center;
     }
