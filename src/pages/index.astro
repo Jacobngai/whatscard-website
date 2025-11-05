@@ -207,19 +207,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <h2>Ready to Transform Your Networking?</h2>
           <p>Download WhatsCard now and never lose a business card again.</p>
           <div class="download-buttons">
-            <a href="https://play.google.com/store" class="download-btn">
-              <div class="download-icon">📱</div>
-              <div>
-                <div class="download-text">Download on</div>
-                <div class="download-store">Google Play</div>
-              </div>
+            <a href="https://play.google.com/store" class="badge-link" target="_blank" rel="noopener noreferrer">
+              <img src="/badge-google-play.png" alt="Get it on Google Play" class="store-badge" />
             </a>
-            <a href="https://apps.apple.com" class="download-btn">
-              <div class="download-icon">🍎</div>
-              <div>
-                <div class="download-text">Download on</div>
-                <div class="download-store">App Store</div>
-              </div>
+            <a href="https://apps.apple.com" class="badge-link" target="_blank" rel="noopener noreferrer">
+              <img src="/badge-app-store.png" alt="Download on the App Store" class="store-badge store-badge-apple" />
             </a>
           </div>
           <p class="download-note">Free to download • No credit card required</p>
@@ -670,36 +662,27 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       margin-bottom: 20px;
     }
 
-    .download-btn {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      background: white;
-      color: var(--text);
-      padding: 15px 30px;
-      border-radius: 12px;
+    .badge-link {
+      display: inline-block;
       text-decoration: none;
-      transition: transform 0.3s, box-shadow 0.3s;
+      transition: transform 0.2s ease, opacity 0.2s ease;
     }
 
-    .download-btn:hover {
-      transform: translateY(-5px);
-      box-shadow: var(--shadow-lg);
+    .badge-link:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
     }
 
-    .download-icon {
-      font-size: 36px;
+    .store-badge {
+      height: 60px;
+      width: auto;
+      display: block;
+      border: none;
+      outline: none;
     }
 
-    .download-text {
-      font-size: 12px;
-      text-align: left;
-    }
-
-    .download-store {
-      font-size: 18px;
-      font-weight: 600;
-      text-align: left;
+    .store-badge-apple {
+      height: 60px;
     }
 
     .download-note {
@@ -804,6 +787,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
       .pricing-card.featured {
         transform: scale(1);
+      }
+
+      .store-badge {
+        height: 50px;
+      }
+
+      .download-buttons {
+        flex-direction: column;
+        gap: 15px;
       }
 
       .footer-content {
